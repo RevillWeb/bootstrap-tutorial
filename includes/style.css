@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+html {
+    background-color: #474747;
+}
+.top {
+    background-color: #474747;
+}
+.top .navbar-brand {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    background-color: #CCC;
+    color: #474747;
+    text-decoration: none;
+}
+.top .container {
+    padding: 0;
+}
+.banner {
+    background-color: #373737;
+}
+.banner .container {
+    background-color: #009b9b;
+    min-height: 200px;
+    padding: 40px 30px 30px 40px;
+}
+.banner .container p {
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.middle {
+    background-color: #CCC;
+}
+.middle .container {
+    background-color: #FFF;
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+.navbar-nav li a {
+    color: #CCC;
+    font-family: 'Lato', sans-serif;
+}
+.navbar-nav li a:hover {
+    background-color: #373737;
+}
+.bottom {
+    background-color: #474747;
+}
+.bottom .container {
+    background-color: #373737;
+    min-height: 150px;
+}
+.bottom .container h3 {
+    color: #999;
+}
+.bottom .container p {
+    color: #666;
+}
+.navbar-toggle {
+    color: #009b9b;
+    font-size: 32px;
+    margin: 3px;
+    padding: 2px 5px;
+    line-height: 32px;
+}
+.navbar-toggle:hover {
+    background-color: #373737;
+}
+.navbar-nav {
+    margin: 0;
+}
+
+.content p {
+    line-height: 30px;
+    font-size: 16px;
+}
+.to-tutorial {
+    text-align: center;
+}
